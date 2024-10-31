@@ -1,0 +1,112 @@
+#wpdm-pricing-table {
+    margin: 100px auto 50px auto;
+    text-align: center;
+    width: 100%;
+}
+#wpdm-pricing-table li a.wppttip{
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font-weight: 600;
+}
+#wpdm-pricing-table li .wppt-feature-val {
+    color: #fff;
+    font-weight: 600;
+    vertical-align: middle;
+}
+#wpdm-pricing-table li img{
+    display: inline-block;
+}
+#wpdm-pricing-table .wppt-plan-features ul{
+    list-style: none;
+    font-size: 15px;
+    color: #9095aa;
+    padding: 0px;
+    margin: 0px;
+}
+#wpdm-pricing-table .wppt-plan-features ul li{
+    border-bottom: 1px solid #494a5a;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    height: auto;
+    line-height: 30px;
+    list-style: none;
+}
+#wpdm-pricing-table .wppt-plan-features ul li .wppt-feature-name,
+#wpdm-pricing-table .wppt-plan-features ul li img{
+    vertical-align: middle;
+}
+#wpdm-pricing-table .wppt-plan-features ul li .wppttip{
+    color: #fff;
+}
+#wpdm-pricing-table .wppt-plan{
+    display: inline-block;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+#wpdm-pricing-table .wppt-plan p{
+    margin: 0;
+}
+@media (max-width: 400px) {
+    #wpdm-pricing-table .wppt-plan{
+        min-width: 300px;
+    }
+}
+.wppt-plan-name{
+    border-radius: 3px 3px 0px 0px;
+    background-color: #1abc9c;
+    border-bottom: 2px solid #18937b;
+}
+.wppt-plan-name h3{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 15px 0px !important;
+}
+.wppt-plan-details{
+    background-color: #2b2937;
+    border-radius: 0px 0px 3px 3px;
+    color: white;
+    text-align: center;
+}
+.wppt-plan-header{
+    border-bottom: 1px solid #494a5a;
+    padding: 15px 0;
+}
+.wppt-plan-price{
+    font-size: 30px;
+    line-height: 40px;
+}
+.wppt-plan-period{
+    font-size: 15px;
+    font-weight: 500;
+    color: #eee;
+    padding: 0px;
+}
+.wppt-plan-button{
+}
+.wppt-plan-button-link{
+    display: inline-block;
+    background: #1abc9c;
+    color: #fff!important;
+    border-radius: 30px;
+    margin: 15px 0;
+    padding:8px 25px;
+    font-weight: 500;
+}
+.featured-column .wppt-plan-button-link{
+    background: #5d6a9a;
+}
+.wppt-plan-button-link:hover{
+    color: #1abc9c!important;
+    background: #fff;
+}
+.featured-column .wppt-plan-button-link:hover{
+    color: #5d6a9a !important;
+}
+.wppt-plan .featured-plan{
+    background-color: #5d6a9a;
+    border-bottom: 3px solid #474f6f;
+}
